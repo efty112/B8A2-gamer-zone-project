@@ -331,6 +331,62 @@ nav {
     justify-content: center;
 }
 
+.footer-icon h3 {
+    color: #FFF;
+}
+
+.footer-icon {
+    justify-content: center;
+    padding: 80px 0px 20px 0px;
+}
+
+footer {
+    background: #0B0223;
+}
+
+.options h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 70px 0px;
+}
+
+.conditions {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.conditions h3 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copyright small {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
 /* Main Styles Ends */
 
 /* Responsive Styles Starts */
@@ -413,12 +469,32 @@ nav {
         width: 50%;
     }
 
-    .top, .bottom{
+    .top,
+    .bottom {
         flex-wrap: wrap;
     }
 
-    .section-5{
+    .section-5 {
         padding: 70px 0px;
+    }
+
+    .options {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+    }
+
+    .conditions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 0px;
+    }
+
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
     }
 }
 
